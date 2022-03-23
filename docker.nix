@@ -8,6 +8,6 @@ in
       Entrypoint = "myapp";
     };
     contents = [
-      (import ./default.nix {})
+      (import ./default.nix)
     ];
   }
